@@ -11,12 +11,24 @@
             "email": "chatura@magestyle.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    ],
     "require": {
         "composer/composer": "@alpha",
         "magento/product-community-edition": "2.2.3"
     },
     "require-dev": {
-
+        "phpunit/phpunit": "4.1.0",
+        "squizlabs/php_codesniffer": "1.5.3",
+        "phpmd/phpmd": "@stable",
+        "pdepend/pdepend": "2.0.6",
+        "sjparkinson/static-review": "~4.1",
+        "fabpot/php-cs-fixer": "~1.2",
+        "lusitanian/oauth": "~0.3 <=0.7.0"
     },
     "config": {
         "use-include-path": true
@@ -43,12 +55,8 @@
             "Magento\\TestFramework\\Utility\\": "dev/tests/static/framework/Magento/TestFramework/Utility/"
         }
     },
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://repo.magento.com/"
-        }
-    ],
+    "minimum-stability": "alpha",
+    "prefer-stable": true,
     "extra": {
         "magento-force": "override"
     }
