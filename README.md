@@ -2,7 +2,9 @@
 
 ## composer install ##
 
-Provide your authentication keys. 
+Get your authentication keys by login to your Magento account.
+
+https://marketplace.magento.com/customer/accessKeys/
 
 http://devdocs.magento.com/guides/v2.0/install-gde/prereq/connect-auth.html
 
