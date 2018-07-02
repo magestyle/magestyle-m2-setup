@@ -21,7 +21,8 @@
     ],
     "require": {
         "composer/composer": "@alpha",
-        "magento/product-community-edition": "2.2.5"
+        "magento/product-community-edition": "2.2.5",
+        "mcafeesecure/module-mcafeesecure": "0.0.6"
     },
     "require-dev": {
         "phpunit/phpunit": "~6.2.0",
