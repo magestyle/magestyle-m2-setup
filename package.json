@@ -13,6 +13,7 @@
         "grunt": "~1.0.1",
         "grunt-autoprefixer": "~3.0.4",
         "grunt-banner": "~0.6.0",
+        "grunt-browser-sync": "^2.2.0",
         "grunt-continue": "~0.1.0",
         "grunt-contrib-clean": "~1.0.0",
         "grunt-contrib-connect": "~1.0.2",
@@ -38,5 +39,8 @@
         "strip-json-comments": "~2.0.1",
         "time-grunt": "~1.0.0",
         "underscore": "~1.7.0"
+    },
+    "dependencies": {
+        "npm": "^6.3.0"
     }
 }
