@@ -19,28 +19,6 @@
  *
  */
 module.exports = {
-    blank: {
-        area: 'frontend',
-        name: 'Magento/blank',
-        locale: 'en_GB',
-        files: [
-            'css/styles-m',
-            'css/styles-l',
-            'css/email',
-            'css/email-inline'
-        ],
-        dsl: 'less'
-    },
-    luma: {
-        area: 'frontend',
-        name: 'Magento/luma',
-        locale: 'en_GB',
-        files: [
-            'css/styles-m',
-            'css/styles-l'
-        ],
-        dsl: 'less'
-    },
     m2base: {
         area: 'frontend',
         name: 'Magestyle/m2base',
@@ -48,16 +26,6 @@ module.exports = {
         files: [
             'css/styles-m',
             'css/styles-l'
-        ],
-        dsl: 'less'
-    },
-    backend: {
-        area: 'adminhtml',
-        name: 'Magento/backend',
-        locale: 'en_GB',
-        files: [
-            'css/styles-old',
-            'css/styles'
         ],
         dsl: 'less'
     }
