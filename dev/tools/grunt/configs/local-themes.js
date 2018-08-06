@@ -20,6 +20,7 @@
  */
 module.exports = {
     m2base: {
+        domain: "m2base",
         area: 'frontend',
         name: 'Magestyle/m2base',
         locale: 'en_GB',
