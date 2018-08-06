@@ -16,8 +16,8 @@ module.exports = function (grunt) {
         tasks = grunt.file.expand('./dev/tools/grunt/tasks/*'),
         themes;
 
-        filesRouter.set('themes', 'dev/tools/grunt/configs/themes');
-        themes = filesRouter.get('themes');
+    filesRouter.set('themes', 'dev/tools/grunt/configs/themes');
+    themes = filesRouter.get('themes');
 
     tasks = _.map(tasks, function(task){ return task.replace('.js', '') });
     tasks.push('time-grunt');
@@ -102,7 +102,20 @@ module.exports = function (grunt) {
             runner.init(grunt, { theme: theme });
 
             grunt.task.run(runner.getTasks());
+        },
+
+        dev: function () {
+            var tasks = [
+                'clean',
+                'exec',
+                'less',
+                'browserSync:less',
+                // 'browserSync:layout', // todo: investigate
+                'watch:dev'
+            ];
+            grunt.task.run(tasks);
         }
+
     }, function (task, name) {
         grunt.registerTask(name, task);
     });
