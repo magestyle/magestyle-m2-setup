@@ -121,3 +121,4 @@ package-lock.json
 
 dev/*
 !dev/tools/grunt/configs/local-themes.js
+!dev/tools/grunt/configs/browserSync.js
