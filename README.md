@@ -1,4 +1,4 @@
-# Magento2 initial project setup using composer #
+# Magento2 - 2.2.x initial project setup using composer #
 
 ## composer install ##
 
