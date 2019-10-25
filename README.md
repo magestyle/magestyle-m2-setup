@@ -21,3 +21,8 @@ php bin/magento sampledata:deploy
 ### Install sample data ###
 
 php bin/magento setup:upgrade
+
+
+### Compile Theme ###
+
+grunt --gruntfile=M2baseChild.js dev
